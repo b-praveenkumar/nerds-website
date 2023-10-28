@@ -1,0 +1,189 @@
+section {
+    margin-bottom: 5rem;
+}
+
+#hero-section .bg-image {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 13.99%, rgba(0, 0, 0, 0.00) 26.42%, rgba(0, 0, 0, 0.00) 77.46%, rgba(0, 0, 0, 0.32) 85.19%), url('../../../assets/home/hero.webp'), no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+#hero-section .text-container {
+    max-width: 600px;
+    height: 75vh;
+    margin: 0 auto;
+}
+
+#hero-section .btn {
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+}
+
+#programs-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#programs-section .program-card {
+    border: none;
+}
+
+#programs-section .card-icon {
+    height: 150px;
+}
+
+#donate-section {
+    background: linear-gradient(90deg, rgba(249, 199, 223, 0.30) 0%, rgba(250, 196, 240, 0.30) 6.25%, rgba(241, 193, 250, 0.30) 12.5%, rgba(223, 191, 251, 0.30) 18.75%, rgba(205, 189, 251, 0.30) 25%, rgba(186, 186, 252, 0.30) 31.25%, rgba(184, 200, 252, 0.30) 37.5%, rgba(182, 214, 253, 0.30) 43.75%, rgba(181, 227, 253, 0.30) 50%, rgba(179, 239, 254, 0.30) 56.25%, rgba(178, 250, 254, 0.30) 62.5%, rgba(177, 254, 248, 0.30) 68.75%, rgba(176, 255, 240, 0.30) 75%, rgba(175, 255, 234, 0.30) 81.25%, rgba(174, 255, 230, 0.30) 87.5%, rgba(174, 255, 227, 0.30) 93.75%, rgba(174, 255, 226, 0.30) 100%);
+}
+
+#donate-section .text, #volunteer-section .text {
+    text-align: center;
+}
+
+#donate-section .top-image, #volunteer-section .right-image {
+    text-align: center;
+}
+
+#donate-section .top-image img, #volunteer-section .right-image img {
+    max-width: 80%;
+}
+
+#donate-section .btn, #volunteer-section .btn {
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+    width: fit-content;
+}
+
+#donate-section .left-image {
+    width: 40%
+}
+
+#donate-section .left-image img {
+    max-width: 100%
+}
+
+/* Breakpoint, styles that only render for large devices (e.g. desktop) onwards */
+@media (min-width: 768px) {
+    #programs-section .program-card {
+        width: 16rem;
+    }
+
+    #donate-section .text {
+        padding: 3rem;
+        text-align: left;
+    }
+
+    #donate-section .top-image img {
+        max-width: 100%;
+    }
+
+    #volunteer-section .text {
+        margin-left: 3rem;
+        width: 50%;
+        text-align: left;
+    }
+}
+
+/* h1.nerds_main_heading {
+    font-size: 100px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    -webkit-text-fill-color: #2eb3ec;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 3.00px;
+    margin-top: 20px;
+}
+
+p.nerds_desc {
+    font-size: 24px;
+    font-family: 'Pangolin', sans-serif;
+    color: #2eb3ec;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.nerds_decs_red {
+    background-color: #CE5A5D;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 45px;
+}
+
+p.nerds_decs_red_p {
+    font-size: 30px;
+    font-family: 'Pangolin', sans-serif;
+    color: #fff;
+}
+
+.yt_video_embed {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+.yt_video_embed iframe {
+    height: 100%;
+    width: 80%;
+}
+
+div#feature_friday {
+    margin-top: 200px;
+}
+
+h2.nerds_secondary_heading {
+    font-size: 70px;
+    margin-bottom: 25px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    -webkit-text-fill-color: #2eb3ec;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 3.00px;
+}
+
+div#middle_red_wrapper {
+    border-radius: 28px;
+    background-color: #CE5A5D;
+}
+
+h2.feature_friday_box_heading {
+    font-family: 'Pangolin', sans-serif;
+    color: #fff;
+    font-size: 80px;
+    margin: 20px;
+}
+
+button.nomination_form_btn {
+    font-family: 'Pangolin', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    background-color: #FE6D73;
+    border-radius: 10px;
+    border-color: #FE6D73;
+    margin: 20px;
+}
+
+button.nomination_form_btn:hover {
+    border-color: #FE6D73;
+    background-color: #fff;
+    color: #FE6D73;
+    -webkit-filter: drop-shadow(5px 5px 5px #333);
+    filter: drop-shadow(5px 5px 5px #333);
+}
+
+@media only screen and (max-width: 768px) {
+    h1.nerds_main_heading {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h1.nerds_main_heading {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    h1.nerds_main_heading {
+        font-size: 70px;
+    }
+} */

@@ -1,0 +1,116 @@
+#middle_pink_activity_wrapper {
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #CE5A5D;
+}
+
+#middle_white_wrapper {
+    border-radius: 28px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+h1.nerds_main_heading {
+    font-size: 100px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    -webkit-text-fill-color: #2eb3ec;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 3.00px;
+    margin-top: 20px;
+}
+
+h1.nerds_activities_heading {
+    font-family: 'Pangolin';
+    font-size: 100px;
+    -webkit-text-stroke-width: 3.00px;
+    color: #FE6D73;
+}
+
+h1.nerds_activity_heading {
+    font-family: 'Pangolin';
+    font-size: 50px;
+    -webkit-text-stroke-width: 3.00px;
+    color: #FFFFFF;
+}
+
+p.nerds_desc {
+    font-size: 15px;
+    font-family: 'Pangolin', sans-serif;
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+div.nerds_decs_blue {
+    background-color: #2EB3EC;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.activities_tile {
+    background-color: #CE5A5D;
+    border-radius: 100px;
+    padding: 50px;
+    margin: 75px;
+}
+
+p.nerds_decs_red_program {
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    margin: 3px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+button {
+    display: none;
+    background-color: #CE5A5D;
+    color: #fff;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-image: url(../../assets/Filter.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-position: 10%;
+    display: inline-block;
+    border-radius: 12px;
+    
+}
+
+.filter_button {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.category_filter {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #2C2C2E;
+    margin: 15px;
+}
+
+input.largerCheckbox {
+    transform : scale(1.6);
+    margin: 10px;
+}
+
+.category_label {
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+.activity_icons {
+    margin: 7px;
+}

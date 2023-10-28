@@ -1,0 +1,34 @@
+.about-bubble {
+    background: #F7F7F7;
+    padding: 4%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+}
+
+.about-icon {
+    height: 100px;
+}
+
+.about-bubble>p {
+    font-size: 13px;
+}
+
+.about-bubble-closed>p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 40px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.arrow {
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 5%;
+}
+
+.arrow-shrink {
+    transform: rotate(-180deg);
+}

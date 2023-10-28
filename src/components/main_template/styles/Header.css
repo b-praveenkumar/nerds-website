@@ -1,0 +1,173 @@
+.header {
+    margin-bottom: 150px;
+}
+
+.icons_menu {
+    margin-top: 33px;
+}
+
+.hamburger_icon_show {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    left: 20px;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.hamburger_icon_hide {
+    display: hidden;
+    transition: all .5s;
+}
+
+.hamburger_icon_show .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .5s;
+}
+
+.blue_left_nav_opened {
+    position: absolute;
+    left: 0;
+    top: -33px;
+    width: 430px;
+    height: 100vh;
+    background-color: #2EB3EC;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    transition: all .5s;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.blue_left_nav_opened a {
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.show a.dropdown_links {
+    color: #2EB3EC !important;
+    font-size: 30px !important;
+    font-family: 'Outfit', sans-serif;
+}
+
+.navigation_menu {
+    margin-top: 50px;
+}
+
+.blue_left_nav_closed {
+    position: absolute;
+    left: -430px;
+    top: -33px;
+    width: 430px;
+    height: 300px;
+    background-color: #2EB3EC;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    transition: all .5s;
+    flex-direction: column;
+}
+
+.chevron_menu {
+    position: absolute;
+    top: 33px;
+    right: 0;
+    cursor: pointer;
+}
+
+.chevron::before {
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+    border-color: #fff;
+	content: '';
+	display: inline-block;
+	height: 40px;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 40px;
+}
+
+.chevron.left:before {
+	transform: rotate(-135deg);
+}
+
+
+.nerds_heading {
+        font-size: 75px;
+        font-family: 'Mochiy Pop One', sans-serif;
+        -webkit-text-fill-color: #2eb3ec;
+        -webkit-text-stroke-color: #fff;
+        -webkit-text-stroke-width: 3.00px;
+        margin-top: 20px;
+}
+
+h1.nerds_sticky_heading {
+    font-size: 75px;
+    font: 'Arial Rounded MT', bold;
+    font-weight: 400;
+    -webkit-text-fill-color: #2eb3ec;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 3px;
+}
+
+.menu_icons:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px #000);
+    filter: drop-shadow(5px 5px 5px #000);
+    transition: all .3s;
+}
+
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: #fff;
+}
+
+.tooltip-inner {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu_icons {
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .menu_icons {
+        width: 40px;
+    }
+
+    .blue_left_nav_opened {
+        width: 430px;
+    }
+
+    .blue_left_nav_closed  {
+        left: -430px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .blue_left_nav_opened {
+        width: 375px;
+    }
+
+    .blue_left_nav_closed  {
+        left: -430px;
+    }
+}

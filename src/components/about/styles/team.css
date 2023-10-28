@@ -1,0 +1,20 @@
+.team-title {
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+
+    /* rustOrange */
+    color: #FE6D73;
+}
+
+.board-title {
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+
+
+    /* rustOrange */
+    color: #FE6D73;
+}

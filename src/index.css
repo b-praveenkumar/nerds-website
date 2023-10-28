@@ -1,0 +1,103 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('./assets/background.png'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  height: 200vh; /* ! just added for testing*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter';
+  overflow-x: hidden;
+}
+
+/* Remove default margin */
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+.content-white-wrapper {
+  /* position: absolute; */
+  /* display: flex; */
+  /* left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+  border-radius: 28px;
+  /* width: 850px;
+    height: 700px; */
+  background-color: #FFF;
+  padding: 3%;
+  /* flex-direction: column; */
+}
+
+p {
+  font-size: 1.1rem;
+  color: var(--primary-text);
+}
+
+.btn {
+  border: none;
+  padding: 1rem;
+  background: var(--primary-color);
+  background: var(--primary-gradient);
+}
+
+.btn:hover {
+  background: var(--primary-gradient-hover);
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  z-index: 3;
+  transform: translateX(-100px);
+  transition: all 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+/* Set up theme colors */
+:root {
+  --primary-color: #AEFFE2;
+  --primary-text: #000000;
+  --primary-gradient: linear-gradient(77deg, #F9C7DF 8.44%, #D599EC 59.39%, #A259FF 87.98%);
+  --primary-gradient-hover: linear-gradient(77deg, #FF76B8 8.44%, #CA4AFD 59.39%, #8525FF 87.98%);
+}
+

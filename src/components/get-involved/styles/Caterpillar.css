@@ -1,0 +1,152 @@
+/* Caterpillar.css */
+
+/* Style for the caterpillar container */
+.donate {
+  .mission-title {
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 70px;
+    color: #000000;
+    letter-spacing: -3%;
+  }
+
+  .text-center {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Inter';
+    margin: 0 auto;
+    max-width: 500px;
+    /* Adjust the maximum width to your preference */
+  }
+
+  .paragraph-row {
+    margin-top: 100px;
+  }
+
+  .inter-font {
+    font-family: 'Inter';
+    /* You can also specify the font-weight here if needed */
+    font-weight: 400;
+  }
+
+  .image-with-text {
+    text-align: center;
+    /* Center-align the text */
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+  .paragraph-content {
+    font-size: 18px;
+    /* Adjust the font size as needed */
+  }
+
+  .content-white-wrapper {
+    width: 90%;
+    /* Adjust the desired width */
+    max-width: 1200px;
+    /* Adjust the maximum width if needed */
+    height: 1200px;
+    /* Adjust the desired height */
+    /* Add any other styles or properties as needed */
+  }
+
+  /* Style for the individual caterpillar segment */
+
+
+  .segment-content {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Center the text horizontally */
+    line-height: 10px;
+    /* Set line-height equal to the segment's height to center vertically */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+
+    /* black */
+    color: #000000;
+  }
+
+  .blue-box-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* Adjust as needed for spacing between boxes */
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  div.nerds_decs_blue {
+    background-color: #BCB6FF;
+    ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px;
+    width: 150px;
+    /* Adjust the width */
+    height: 100px;
+    /* Adjust the height */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  div.nerds_decs_blue:hover {
+    transform: scale(1.1);
+    /* Increase size on hover */
+  }
+
+  .paypal-logo {
+    width: 130px;
+    /* Adjust to your desired width */
+    height: 80px;
+    /* Adjust to your desired height */
+    margin-right: 10px;
+    /* Add some spacing between the logo and text if needed */
+  }
+
+  .venmo-logo {
+    width: 130px;
+    /* Adjust to your desired width */
+    height: 80px;
+    /* Adjust to your desired height */
+    margin-right: 10px;
+    /* Add some spacing between the logo and text if needed */
+  }
+
+  .cashapp-logo {
+    width: 130px;
+    /* Adjust to your desired width */
+    height: 80px;
+    /* Adjust to your desired height */
+    margin-right: 10px;
+    /* Add some spacing between the logo and text if needed */
+  }
+
+  .coach_tee {
+    width: 230px;
+    /* Adjust to your desired width */
+    height: 230px;
+    /* Adjust to your desired height */
+    margin-right: 10px;
+    border-radius: 20px;
+    /* Add some spacing between the logo and text if needed */
+  }
+
+  .highlight {
+    /*background-color: yellow; /* Set a background color to highlight the number */
+    color: #BCB6FF;
+    /* Set a text color for the highlighted number */
+    padding: 2px 4px;
+    /* Add some padding for better visibility */
+    border-radius: 4px;
+    /* Add rounded corners for styling */
+    font-size: 45px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,61 @@
+.card-container {
+    border-radius: 25px;
+    padding: 5%;
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-container:active {
+    transition: 0s;
+    filter: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.linkedIn_icon {
+    width: 35px;
+    height: 35px;
+}
+
+.card-name {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.position {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    /* rustOrange */
+    color: #FE6D73;
+}
+
+.bio-modal {
+    background-image: url('../../../assets/background.png');
+    margin: 10%;
+    padding: 2%;
+    height: 80%;
+    width: 80%;
+}
+
+.close-icon {
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.mission-title,
+.story-title {
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+
+    /* rustOrange */
+    color: #FE6D73;
+}
+
+.story-timeline>:first-child {
+    /* mintGreen */
+    background: #AEFFE2;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.story-timeline>:nth-child(2) {
+    /* warmYellow */
+    background: #F6EFA6;
+}
+
+.story-timeline>:nth-child(3) {
+    /* babyPink */
+    background: #F9C7DF;
+}
+
+.story-timeline>:nth-child(4) {
+    /* babyBlue */
+    background: #A9DEF9;
+}
+
+.story-timeline>:nth-child(5) {
+    /* rustOrange */
+    background: #FE6D73;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.story-bubble-title,
+.story-timeframe {
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+
+    /* black */
+    color: #000000;
+}

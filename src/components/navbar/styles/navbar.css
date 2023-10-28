@@ -1,0 +1,68 @@
+img.navbar-logo {
+    width: 120px;
+}
+
+.bg-body-tertiary {
+    min-height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.bg-body-tertiary .justify-content-center{
+    justify-content: "center";
+}
+
+.brand-center {
+    justify-content: "center";
+}
+
+.navbar-link {
+    color: #444444;
+}
+
+.main-navbar-container {
+    display: "flex";
+    flex-direction: "row";
+    justify-content: "space-between";
+}
+
+.left-navbar-container {
+    justify-content: flex-start;
+    flex-basis: 25%;
+}
+
+.center-navbar-container {
+    justify-content: center;
+    text-align: center;
+    flex-basis: 50%;
+}
+
+.right-navbar-container {
+    justify-content: flex-end;
+    flex-basis: 25%;
+}
+
+.right-navbar-nav {
+    align-items: center;
+}
+
+img.navbar-icons {
+    width: 20px;
+}
+
+.btn-custom {
+    background-color: white;
+    color: #444444;
+    border-color: #444444;
+}
+
+.btn-custom:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+#donate-btn {
+    margin-left: 20px;
+}
