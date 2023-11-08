@@ -85,57 +85,90 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             /* Styling for the footer */
+            footer {
+              background-color: #001f3f;
+              color: white; /* Text color for contrast */
+          }
+          
+          
             table {
+              
                 width: 100%;
                 border-collapse: collapse;
             }
             th, td {
-                border: 1px solid #ccc;
+                
                 padding: 10px;
                 text-align: center;
             }
             th {
-                background-color: #333;
-                color: #fff;
-            }
+              background-color: lightblue;
+              color: darkblue;
+          }
+            
+            th.heading1 {
+              background-color: lightblue;
+              color: darkblue;
+            
+          }
+          th.heading2 {
+            background-color: lightblue;
+            color: darkblue;
+        }
         </style>
     </head>
     <body>
       
-        <footer>
+        <footer  >
 
-          <style>
-            table ,td,th{
-          border-collapse: collapse; /* This removes lines between rows and columns */
-        }
-          </style>
+          
             <table>
                 <thead>
                     <tr>
                         <th>Help & FAQ's</th>
-                        <th>About NERDS</th>
-                        <th>Get in touch</th>
-                        <th>Contact Info</th>
+                        <th class="heading1">Subscribe to Newsletter
+                        </th>
+                        <th class="heading2">Follow Us</th>
+                        <th class="heading1">Contact Info</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a>About NERDS</a></td>
-                        <td>Row 1, Cell 2</td>
-                        <td>Row 1, Cell 3</td>
-                        <td>Row 1, Cell 4</td>
+                        <td ><a>About NERDS</a></td>
+                        <td></td>
+                        <td>
+                          <img src="/Users/pavanyaramati/Downloads/NERDS-Website-For-Students-main/nerds-website/src/assets/Facebook.png" alt="Facebook">
+                        </td>
+                        <td>T: +1(999)-999-9999</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Terms & Conditions</td>
+                        <td><footer>
+                          <div class="newsletter">
+                              
+                            <p style="color: white;">Stay updated with our latest news and updates.</p>
+                            <form action="subscribe.php" method="post">
+                                  <input type="email" name="email" placeholder="Enter your email" required>
+                                  <button type="submit">Subscribe</button>
+                              </form>
+                          </div>
+                      </footer></td>
+                        <td>
+                          <img src="/Users/pavanyaramati/Downloads/NERDS-Website-For-Students-main/nerds-website/src/assets/Instagram.png" alt="Instagram">
+                        </td>
+                        <td>
+                          <img src="/Users/pavanyaramati/Downloads/NERDS-Website-For-Students-main/nerds-website/src/assets/mail-icon-black.png" alt="Email">: nerds@samplemail.com</td>
                     </tr>
                     <tr>
-                        <td>Row 2, Cell 1</td>
-                        <td>Row 2, Cell 2</td>
-                        <td>Row 2, Cell 3</td>
-                        <td>Row 2, Cell 4</td>
-                    </tr>
-                    <tr>
-                        <td>Row 3, Cell 1</td>
-                        <td>Row 3, Cell 2</td>
-                        <td>Row 3, Cell 3</td>
-                        <td><a img src="linkedin.png" alt="Instagram"></a> </td>
+                        <td>FAQ's</td>
+                        <td></td>
+                        <td>
+                          <img src="/Users/pavanyaramati/Downloads/NERDS-Website-For-Students-main/nerds-website/src/assets/about/linkedin.png" alt="LinkedIn">
+                        </td>
+                        
+                        
                     </tr>
                 </tbody>
             </table>
